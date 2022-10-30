@@ -1,0 +1,186 @@
+:root {
+    --Blue: #2196F3;
+    --black: #212121;
+    --black-logo: #000000;  
+    --white: #FFFFFF;
+    --gray: #757575;
+    --background1: #F5F4FA;
+    --background2: #2F303A;
+    --background3: #FFFFFF; 
+    --background4: #F5F5F5;
+    --rgba-gray: rgba(255, 255, 255, 0.6);
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ----------HEADER------------ */
+.header {
+    background-color: var(--background3);
+}
+
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.1923;
+letter-spacing: 0.03em;
+color: var(--Blue);
+text-decoration: none;
+ 
+}
+.logo-studio {
+    color: var(--black-logo);
+}
+.header-list {
+}
+.list { list-style: none;
+}
+.header-item {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1428;
+letter-spacing: 0.02em;
+color: var(--black);
+}
+.link {
+    text-decoration: none;
+}  
+.link:hover, .link:focus{
+    color: var(--Blue);
+}
+.contacts {
+}
+.contacts-item {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--gray);
+}
+.contacts-link:hover, .contacts-link:focus {
+    color: var(--Blue);
+}
+/* ----------HERO------------ */
+
+.hero{
+    background-image: url(/);
+}
+.hero-title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white);
+}
+.hero-button {
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--white);
+background-color: var(--Blue);
+font-family: inherit;
+}
+/* ----------ADVANTTAGE------------ */
+.advantage {
+    background-color: var(--background4);
+}
+.advantage-title {
+}
+
+.advantage-suptitle {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black);
+}
+.advantage-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--gray);
+}
+/* ----------EXAMPLE------------ */
+.examples {
+    background-color: var(--background4);
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.examples-items {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+/* ----------TEAM------------ */
+.tiam {
+    background-color: var(--background1)
+}
+
+.tiam-name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black);
+}
+.tiam-position {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--gray);
+}
+/* ----------FOOTER------------ */
+.footer {
+    background-color:var(--background2);
+}
+.footer-logo {
+    font-family: 'Raleway';
+ font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--Blue);
+text-decoration: none;
+}
+.footer-studio {
+    color: var(--white);
+    font-family: 'Raleway';
+}
+.footer-address {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: var(--rgba-gray);
+text-decoration: none;
+}
+.address {
+    color: var(--white);
+}
+.footer-address:hover, .footer-address:focus{
+    color: var(--Blue);
+} 
