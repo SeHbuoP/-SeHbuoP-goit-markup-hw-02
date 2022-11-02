@@ -4,7 +4,7 @@
     --black-logo: #000000;  
     --white: #FFFFFF;
     --gray: #757575;
-    --background-white: #F5F5F5;
+    --background-white: #FFFFFF;
     --background-gray: #2F303A;
     --background-button:#F5F4FA;
     --rgba-gray: rgba(255, 255, 255, 0.6);
@@ -12,7 +12,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--background-white);
 }
 /* HEADER */
 .header {
@@ -72,7 +71,7 @@ letter-spacing: 0.02em;
 /* HERO */
 
 .hero{
-   
+  background-color: var(--background-gray); 
 }
 .hero-title {
     font-weight: 900;
@@ -137,6 +136,7 @@ color: var(--gray);
 }
 /* TEAM */
 .tiam {
+    background-color: var(--background-button);
 }
 
 .tiam-name {
@@ -177,9 +177,11 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
 color: var(--rgba-gray);
 text-decoration: none;
+font-style: normal;
 }
 .address {
     color: var(--white);
+    
 }
 .footer-address:hover, .footer-address:focus{
     color: var(--Blue);
