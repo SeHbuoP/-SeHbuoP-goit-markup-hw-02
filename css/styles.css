@@ -7,6 +7,7 @@
     --background-white: #FFFFFF;
     --background-gray: #2F303A;
     --background-button:#F5F4FA;
+    --button-active: #188CE8;
     --rgba-gray: rgba(255, 255, 255, 0.6);
 }
 
@@ -92,6 +93,9 @@ background-color: var(--Blue);
 font-family: inherit;
 border-color: var(--Blue);
 cursor: pointer;
+}
+.hero-button:hover, .hero-button:focus {
+    background-color: var(--button-active);
 }
 /* ADVANTTAGE */
 .advantage {
